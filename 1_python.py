@@ -1,28 +1,9 @@
-#Leature_1 in High_level language programing
+#Leature_1 
 #  what is python?
 """Python is a high-level, interpreted programming
  language known for its simplicity,"""
 #Our first programe
 print("Hellow word")
-#phython Character set
-"""Letters – Includes uppercase letters (A–Z) and lowercase letters (a–z).
-
-Digits – Includes numeric characters from 0 to 9.
-
-Special Characters – Includes symbols such as +, -, *, /, =, (), [], {}, :, ;, #, etc.
-
-White Spaces – Includes spaces, tabs, and newline characters used for indentation and separation.
-
-Unicode Characters – Supports characters from different languages worldwide.
-
-Identifiers – Made using letters, digits, or underscores (_), but cannot start with a digit.
-
-Keywords – Reserved words in Python that have special meanings.
-
-Operators – Symbols used to perform operations (arithmetic, logical, relational, etc.).
-
-Punctuation Characters – Used to structure statements and expressions in Python.
-"""
 #aribvales:
 # A aribvales is a name given to a memory location in a programe
 name = "M.farhan"
