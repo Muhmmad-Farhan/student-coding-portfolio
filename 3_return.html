@@ -2,94 +2,270 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Government College of Technology, Sangla Hill</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container{
+            width: 85%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            text-align: center;
+            color: darkblue;
+            margin-bottom: 15px;
+        }
+
+        img{
+            display: block;
+            margin: auto;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+        }
+
+        .welcome{
+            text-align: center;
+            color: green;
+            margin: 15px 0;
+            font-size: 20px;
+        }
+
+        p{
+            margin: 10px 0;
+        }
+
+        hr{
+            margin: 15px 0;
+        }
+
+        a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td{
+            border: 1px solid #ddd;
+        }
+
+        th{
+            background-color: darkblue;
+            color: white;
+            padding: 12px;
+        }
+
+        td{
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        iframe{
+            display: block;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+        }
+
+        form{
+            background: #eee;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        form input,
+        form select{
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button{
+            background: darkblue;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background: green;
+        }
+
+        footer{
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: darkblue;
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Government College of Technology, Sangla Hill</h1>
-    <img src="Screenshot.png" alt="College Image" />
-    <br />
-<i>Welcome to GCT sangla Hil</i>
-    <i><p>
-Government College of Technology (GCT) Sangla Hill is a well-known technical college in Punjab, Pakistan. 
-It offers quality education in various engineering and technology fields. 
-The college has experienced teachers, modern labs, and a friendly environment for students to learn and grow.
-</p>
-</i>
-<br />
-<p><b>Importance of Technical Education</b></p>
-<hr />
-<p><i>Technical education teaches practical skills and knowledge needed for jobs in engineering, computers, electronics, and other industries. It helps students become skilled workers, solve real-world problems, and contribute to the development of society. Technical education also improves career opportunities and supports innovation and technology growth.</i></p>
-<i>Engineering Departments</i>
-<br />
-<a href="https://www.eduvision.edu.pk/Admissions">
-    <i>GCT Sangla Hill announces Admission 2026.</i>
-</a>
-<p><I>Civil, Electrical, Mechanical, and Electronics engineering are important fields of technology. Civil engineers design buildings and roads. Electrical engineers work with electricity and circuits. Mechanical engineers make machines and engines. Electronics engineers work with computers and devices.CIT (College of Information Technology)
-CIT is a college that teaches modern technology and computer skills. Students learn about computers, software, and electronics.</I></p>
-<br />
-<table border="1" cellpadding="5" cellspacing="0">
-    <tr>
-        <th>Technology Type</th>
-        <th>Importance</th>
-        <th>Career Opportunities</th>
-    </tr>
-    <tr>
-        <td>Civil Engineering Technology</td>
-        <td>Teaches building, construction, and infrastructure skills</td>
-        <td>Civil Engineer, Site Manager, Architect Assistant</td>
-    </tr>
-    <tr>
-        <td>Electrical Engineering Technology</td>
-        <td>Teaches electricity, circuits, and power systems</td>
-        <td>Electrical Engineer, Technician, Power System Analyst</td>
-    </tr>
-    <tr>
-        <td>Mechanical Engineering Technology</td>
-        <td>Teaches machines, engines, and manufacturing</td>
-        <td>Mechanical Engineer, Machine Operator, Designer</td>
-    </tr>
-    <tr>
-        <td>Electronics Technology</td>
-        <td>Teaches computers, electronics, and software</td>
-        <td>Electronics Engineer, IT Specialist, Software Developer</td>
-    </tr>
-    <tr>
-        <td>CIT (Computer Information Technology)</td>
-        <td>Provides modern education in computers and information technology</td>
-        <td>Software Developer, Web Developer, IT Specialist</td>
-    </tr>
-</table>
-        <ol>
-    <li>GCT Sangla Hill</li>
-</ol>
-<br />
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R9vavZHyrKY?si=yEl170vtAXG9bcb1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br />
-<h4><i>Registration Form</i></h4>
-    <form action="/index.html">
-        <input type="text" placeholder="First Name" name="firstName"><br />
-        <input type="text" placeholder="Father Name" name="Father"><br />
-        <input type="email" placeholder="Email Address" name="email"><br />
-        <input type="tel" placeholder="Phone Number" name="phone"><br />
-        <input type="loaction" placeholder="loaction" name="loaction"><br />
-        <input type="date" placeholder="Date of Birth" name="dob"><br />
 
-        <label for="technology">Select your Technology:</label>
-        <br />
-<label for="technology">Select your Technology:</label>
-<select name="Technology" id="technology">
-    <option value="" selected disabled>Select Technology</option>
-    <option value="Civil Engineering">Civil Engineering</option>
-    <option value="Electrical Engineering">Electrical Engineering</option>
-    <option value="Mechanical Engineering">Mechanical Engineering</option>
-    <option value="Electronics Engineering">Electronics Engineering</option>
-    <option value="Computer Information Technology">computer information technology</option>
-</select>
-<br />
+    <div class="container">
 
-<br />
+        <h1>Government College of Technology, Sangla Hill</h1>
 
+        <img src="Screenshot.png" alt="College Image">
 
+        <p class="welcome"><i>Welcome to GCT Sangla Hill</i></p>
+
+        <p>
+            Government College of Technology (GCT) Sangla Hill is a well-known technical college in Punjab, Pakistan.
+            It offers quality education in various engineering and technology fields.
+            The college has experienced teachers, modern labs, and a friendly environment for students to learn and grow.
+        </p>
+
+        <hr>
+
+        <h2>Importance of Technical Education</h2>
+
+        <p>
+            Technical education teaches practical skills and knowledge needed for jobs in engineering, computers,
+            electronics, and other industries. It helps students become skilled workers, solve real-world problems,
+            and contribute to society.
+        </p>
+
+        <h2>Engineering Departments</h2>
+
+        <a href="https://www.eduvision.edu.pk/Admissions" target="_blank">
+            GCT Sangla Hill Announces Admission 2026
+        </a>
+
+        <p>
+            Civil, Electrical, Mechanical, and Electronics engineering are important fields of technology.
+            Civil engineers design buildings and roads. Electrical engineers work with electricity and circuits.
+            Mechanical engineers make machines and engines.
+            Electronics engineers work with computers and devices.
+        </p>
+
+        <table>
+            <tr>
+                <th>Technology Type</th>
+                <th>Importance</th>
+                <th>Career Opportunities</th>
+            </tr>
+
+            <tr>
+                <td>Civil Engineering Technology</td>
+                <td>Building and infrastructure skills</td>
+                <td>Civil Engineer, Site Manager</td>
+            </tr>
+
+            <tr>
+                <td>Electrical Engineering Technology</td>
+                <td>Electricity and power systems</td>
+                <td>Electrical Engineer, Technician</td>
+            </tr>
+
+            <tr>
+                <td>Mechanical Engineering Technology</td>
+                <td>Machines and manufacturing</td>
+                <td>Mechanical Engineer, Designer</td>
+            </tr>
+
+            <tr>
+                <td>Electronics Technology</td>
+                <td>Computers and electronics</td>
+                <td>IT Specialist, Electronics Engineer</td>
+            </tr>
+
+            <tr>
+                <td>CIT (Computer Information Technology)</td>
+                <td>Modern IT education</td>
+                <td>Software Developer, Web Developer</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/R9vavZHyrKY"
+            title="YouTube video player"
+            allowfullscreen>
+        </iframe>
+
+        <h2>Registration Form</h2>
+
+        <form action="/index.html">
+
+            <input type="text" placeholder="First Name" required>
+
+            <input type="text" placeholder="Father Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+
+            <input type="text" placeholder="Location" required>
+
+            <input type="date" required>
+
+            <label>Select Your Technology:</label>
+
+            <select required>
+                <option value="">Select Technology</option>
+                <option>Civil Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Electronics Engineering</option>
+                <option>Computer Information Technology</option>
+            </select>
+
+            <button type="submit">Register Now</button>
+
+        </form>
+
+        <footer>
+            © 2026 Government College of Technology, Sangla Hill
+        </footer>
+
+    </div>
 
 </body>
 </html>
